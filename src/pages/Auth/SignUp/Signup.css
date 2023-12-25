@@ -1,0 +1,93 @@
+.SingUpSection {
+    background: #aaaaaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.formContainer{
+    background: #f2f2f2;
+    padding: 50px;
+    border-radius: 5px;
+}
+.formContainer h2{
+    margin-bottom: 2px;
+}
+.dftInput {
+    height: 42px;
+    padding: 8px;
+    width: 356px;
+    margin-bottom: 13px;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.singUpBtn {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #2ed573;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 21px;
+}
+.forgetPassword {
+    text-align: center;
+    margin: 15px 0;
+}
+.goLoginPage {
+display: flex;
+width: 100%;
+text-align: left;
+margin-bottom: 13px;
+}
+.singInBtnContainer{
+    text-align: center;
+}
+.singUpGoogle{
+    width: 48%;
+    border: none;
+    
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.singUpGoogle a{
+    color: #fff;
+    background: chocolate;
+    text-decoration: none;
+    padding:8px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.singUpGithub {
+    width: 48%;
+    border: none;
+    
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.singUpGithub a{
+    color: #fff;
+    background: rgb(2, 1, 1);
+    text-decoration: none;
+    padding:8px 16px;
+    border-radius: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.singUpWith{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,59 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginSection .LoginForm{
+    background: #e7e7e7;
+}
+.singINBtn{
+    border: none;
+    background: #6969e9;
+    color: #fff;
+    padding: 9px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
+    margin:0 auto;
+    cursor: pointer;
+}
+.goSingupPage{
+    text-align: center;
+}
+.goSingupPage a {
+    background: #0363b3;
+    color: #fff;
+    padding: 9px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 0px;
+    display: inline-block;
+}
+ .active{
+    color: red;
+}
+.goBack{
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    background: #03070a;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.goHome{
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    background: #03070a;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+.previousButton{
+    text-align: center;
+}

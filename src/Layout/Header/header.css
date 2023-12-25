@@ -1,0 +1,57 @@
+.headerSection{
+    background: #3498db;
+    padding: 5px 0;
+}
+.headerContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerLogo{
+    width: 30%;
+}
+.headerMenu{
+    width: 70%;
+}
+nav.menuControler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+.headerLogo a {
+    font-size: 23px;
+    text-decoration: none;
+    color: #fff;
+}
+.mainNav{
+    display: flex;
+    gap: 20px;
+}
+.mainNav a {
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+}
+.registration {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.registration a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+}
+.mainNav a.active,.registration a.active{
+    color: rgb(48, 233, 103);
+}
+.headerSection img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
